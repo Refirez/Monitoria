@@ -1,3 +1,6 @@
+package main;
+import classes.GestaoPedidos;
+
 public class MainPedidos{
     public static void main(String[] args){
         GestaoPedidos restaurante = new GestaoPedidos();

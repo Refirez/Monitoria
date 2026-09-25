@@ -1,4 +1,8 @@
-public class Main{
+package main;
+import classes.Retangulo;
+
+
+public class MainRetangulo{
     public static void main(String[] args){
         Retangulo r1 = new Retangulo(5,5);
 
