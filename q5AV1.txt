@@ -1,0 +1,37 @@
+5. (DESAFIO) Considere o seguinte trecho de código em Java (1.0 ponto) :
+OBS: Pontuação só será recebida mediante explicação correta
+public class Desafio {
+ public static void main(String[] args) {
+ int x = 3;
+ int y = 5;
+ int z = 7;
+ do {
+ ++x;
+ y--;
+ --z;
+ if (x % 2 == 0) {
+ continue;
+ }
+ System.out.println("x=" + x + ", y=" + y + ", z=" + z);
+ if (y < 2) {
+ break;
+ }
+ } while (z > 0);
+ }
+}
+a.(0.33) Qual é o valor final impresso
+em "x"?
+
+x = 7.
+
+b.(0.33) Qual é o valor final impresso
+em "y"?
+
+y = 1.
+
+c. (0.33) Qual é o valor final impresso
+em "z"?
+
+z = 3.
+
+o loop roda 4 vezes, nas iterações 1 e 3, x fica par logo após o incremento, então o continue pula o println e o teste de break, indo direto pra condição do while, na iteração 4, x é ímpar, o programa imprime e, como y já caiu para 1 (menor que 2), o break interrompe o laço, por isso o while(z>0) nunca chega a ser reavaliado depois da 4ª iteração.

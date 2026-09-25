@@ -1,15 +1,24 @@
 1. (2.0 pontos) Responda as perguntas abaixo resumidamente:
 
 a. O que é uma classe abstrata?
-é uma classe que não pode ser instanciada diretamente com new, ela serve como um molde incompleto para outras classes. Pode ter métodos abstratos (sem corpo, só a assinatura) que obrigam as subclasses a implementá-los, e também pode ter métodos já prontos que as subclasses herdam.
+é uma classe que não pode ser instanciada diretamente com new, ela serve como um molde incompleto para outras classes.
 
 b. Explique a diferença de um atributo t1 com modificador static para um atributo t2 com
 modificador final ?
+
+um atributo com modificador static, define a quem o atributo pertence, em vez de cada objeto ter sua própria cópia, existe uma unica cópia compartilhada por todos os objetos da classe, é acessada por (Classe.atributo).
+
+um atributo 'final' define um valor que não pode ser alterado, ou seja, uma constante. uma vez que for atribuído, não pode ser reatribuido.
 
 
 c. Por que é importante usar getters e setters em vez de permitir acesso direto aos atributos
 de uma classe?
 
+isso é uma boa prática para proteger o encapsulamento, pilar do paradigma orientado a objetos, um atributo com acesso público pode ser alterado da forma que quiser e com o valor que quiser, com metodos setters é possível validar um valor antes de ser aceito, também facilitando a manutenção.
 
 d. Explique resumidamente o que cada um dos modificadores de acesso (public, private e
 protected) faz?
+
+public: acessível de qualquer lugar, dentro ou fora da classe ou pacote
+private: acessivel somente dentro da própria classe que foi criado
+protected: acessível dentro do mesmo pacote e também por subclasses.
