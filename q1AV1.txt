@@ -1,0 +1,15 @@
+1. (2.0 pontos) Responda as perguntas abaixo resumidamente:
+
+a. O que é uma classe abstrata?
+é uma classe que não pode ser instanciada diretamente com new, ela serve como um molde incompleto para outras classes. Pode ter métodos abstratos (sem corpo, só a assinatura) que obrigam as subclasses a implementá-los, e também pode ter métodos já prontos que as subclasses herdam.
+
+b. Explique a diferença de um atributo t1 com modificador static para um atributo t2 com
+modificador final ?
+
+
+c. Por que é importante usar getters e setters em vez de permitir acesso direto aos atributos
+de uma classe?
+
+
+d. Explique resumidamente o que cada um dos modificadores de acesso (public, private e
+protected) faz?

@@ -1,3 +1,4 @@
+//questao2 simulado
 package main;
 import classes.Retangulo;
 

@@ -1,3 +1,4 @@
+//questao2 simulado
 package classes;
 public class Retangulo {
     private double largura;
